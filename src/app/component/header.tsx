@@ -7,7 +7,8 @@ export default function Header() {
         <main className="border bg-white">
             <div className="flex- justify-between- flex-wrap px-16 text-wrap">
                 <div className="px-16- flex justify-between items-center">
-                    <div className="">
+                  <a href="./home">
+                  <div className="">
                         <Image
                             className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
                             src="/logo.png"
@@ -17,6 +18,7 @@ export default function Header() {
                             priority
                         />
                     </div>
+                  </a>
                     <div className="flex items-center gap-20">
                         <p><a href="">Home</a></p>
                         <p><a href="">About Us</a></p>
