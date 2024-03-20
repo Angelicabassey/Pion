@@ -1,8 +1,5 @@
-import Image from 'next/image'
 import Testarrow from "./testarrow";
 import Testback from "./testback";
-
-
 import Testimg from "./testimg";
 
 export default function Testimonial() {

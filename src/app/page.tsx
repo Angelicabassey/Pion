@@ -1,8 +1,4 @@
-// import Image from "next/image";
-
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faCoffee } from '@fortawesome/free-solid-svg-icons'
-
+'use client'
 import Arrowimg from "./component/arrowimg";
 import Sideimg from "./component/sideimg";
 import Service from "./component/service";
@@ -30,10 +26,9 @@ export default function Home() {
       </div>
       <Service />
       <Testimonial />
-      {/* <question/> */}
-      <Platform />
+      <Platform/>
       <div className="my-20">
-        <Footer />
+        <Footer/>
       </div>
     </main>
   );

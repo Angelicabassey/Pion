@@ -7,7 +7,6 @@ import Telegram from "./telegram";
 import Youtube from "./youtube";
 
 
-
 export default function Footer() {
     return (
         <main className='bg-herobg'>

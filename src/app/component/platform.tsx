@@ -1,4 +1,3 @@
-// import Image from 'next/image'
 import Platformimg from "./platformimg";
 import Arrowimg from "./arrowimg";
 
