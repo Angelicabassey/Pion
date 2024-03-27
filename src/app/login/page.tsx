@@ -23,7 +23,7 @@ export default function Signin() {
                         <FontAwesomeIcon icon={faEyeSlash} />
                         </div>
                     </div>
-                    <button className="border-2 border-main- text-white bg-main font-normal px-1- py-1 xl:text-base sm:text-sm rounded-lg w-6/6">Sign In</button>
+                    <button className="border-2 border-main- text-white bg-main font-normal px-1- py-1 xl:text-base sm:text-sm rounded-lg w-6/6"><a href="./dashboard">Sign In</a></button>
                     <div className="flex justify-center- items-center gap-4">
                      <hr className="border border-b border-black w-64"/>
                      <p className="text-xs"> Or Sign In With</p>
