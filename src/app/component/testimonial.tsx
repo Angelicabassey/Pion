@@ -4,7 +4,7 @@ import Testimg from "./testimg";
 
 export default function Testimonial() {
     return (
-        <div className='px-16 my-20 flex- justify-center- items-center- h-screen-'>
+        <div className='px-24 my-20'>
             <h1 className=' font-semibold text-main text-3xl w-72-'>See What Others Have <br/> to Say</h1>
             <div className="flex gap-16 items-center my-8 ">
                 <div>

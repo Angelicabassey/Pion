@@ -1,3 +1,4 @@
+import Header from "../component/header";
 import Sideimg from "../component/sideimg";
 import Socials from "../component/socials";
 import Footer from "../component/footer";
@@ -9,6 +10,7 @@ import { faEyeSlash } from '@fortawesome/free-solid-svg-icons'
 export default function Signup() {
     return (
         <main >
+            <Header/>
             <div className="flex justify-between min-h-screen bg-herobg">
                 <div className="flex flex-col  gap-10 py-16 px-8 bg-main w-4/12">
                     <div>

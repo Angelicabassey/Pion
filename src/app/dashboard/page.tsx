@@ -1,7 +1,11 @@
-export default function Home() {
+import Dashbar from "../component/dashbar";
+import Drightbar from "../component/drightbar";
+
+export default function Dashboard() {
     return (
-        <main>
-            <h1>hello world</h1>
+        <main className="flex">
+            <Dashbar/>
+            <Drightbar/>
         </main>
-        );
-    }
+    )
+}

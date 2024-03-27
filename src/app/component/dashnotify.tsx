@@ -1,15 +1,14 @@
 import Image from 'next/image'
 
-export default function hero() {
+export default function Dashnotify() {
   return (
    <div className='flex- justify-center- items-center- h-screen-'>
      <Image
-      src="/1 3.png"
-      width={400}
-      height={400}
+      src="/notification-bing.png"
+      width={24}
+      height={24}
       alt="Picture of the author"
       />
    </div>
   )
 }
-

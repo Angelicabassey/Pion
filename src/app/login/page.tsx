@@ -1,3 +1,4 @@
+import Header from "../component/header";
 import Sideimg from "../component/sideimg";
 import Socials from "../component/socials";
 import Footer from "../component/footer";
@@ -9,6 +10,7 @@ import { faEyeSlash } from '@fortawesome/free-solid-svg-icons'
 export default function Signin() {
     return (
         <main >
+            <Header/>
             <div className="flex justify-between min-h-screen bg-white">
                 <form className="flex flex-col gap-5 full max-w-sm- mx-20 my-16">
                     <h1 className="font-meduim text-xl">Sign In</h1>

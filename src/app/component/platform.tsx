@@ -3,7 +3,7 @@ import Arrowimg from "./arrowimg";
 
 export default function Platform() {
     return (
-        <main className='px-16'>
+        <main className='px-24'>
             <div className='flex justify-between  bg-gray-300 rounded-3xl px-10 py-10'>
                 <div>
                     <p className=' font-medium text-3xl'>A Platform Where You <br/> Get to Earn While You <br/> Learn</p>

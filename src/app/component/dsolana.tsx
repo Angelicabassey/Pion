@@ -1,15 +1,14 @@
 import Image from 'next/image'
 
-export default function hero() {
+export default function dsolana() {
   return (
    <div className='flex- justify-center- items-center- h-screen-'>
      <Image
-      src="/1 3.png"
-      width={400}
-      height={400}
+      src="/solana.png"
+      width={100}
+      height={100}
       alt="Picture of the author"
       />
    </div>
   )
 }
-
